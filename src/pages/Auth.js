@@ -40,13 +40,13 @@ const Auth = () => {
   };
 
   const loginFn = async (e) => {
-    console.log("login");
     e.preventDefault();
+    console.log("login");
   };
 
   const signUpFn = async (e) => {
-    console.log("signup");
     e.preventDefault();
+    console.log("signup");
   };
 
   return (
